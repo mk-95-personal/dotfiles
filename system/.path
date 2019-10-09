@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# to make python 3 in anaconda the default python
+export PATH="/Users/mkaram/python_venvs/regular_python/bin:$PATH"
+#export PATH="/Users/mkaram/anaconda/bin:$PATH"
