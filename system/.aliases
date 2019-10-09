@@ -9,10 +9,12 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias doc="cd ~/Documents"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias r="cd ~/Documents/researsh"
+alias dr="cd ~/Google\ Drive/"
+alias h="cd ~/"
 alias g="git"
 
 # Detect which `ls` flavor is in use
