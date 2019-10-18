@@ -1,3 +1,1 @@
-for dir in {/bin,/usr/env/bin}; do
-	[ -d "$dir" ] && shell "$dir/bash"
-done
+
