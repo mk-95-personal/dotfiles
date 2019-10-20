@@ -5,7 +5,7 @@ if [[ $1 == init ]]; then
 echo "Backing up your dot files:"
 
 # moving .bash_profile and .bashrc to $PWD/backup
-for file in ~/.{bash_history,bash_profile,bashrc,inputrc,bash_prompt,aliases,exports,extra,functions,path}; do
+for file in ~/.{bash_history,bash_profile,bashrc,inputrc,bash_prompt,aliases,exports,extra,functions,path,vim,vimrc}; do
 	[ -r "$file" ] && [ -f "$file" ] && mv "$file" "$PWD/backup" && echo  "--> $file: Done!!"
 done
 
@@ -34,5 +34,10 @@ done
 # restart the shell
 exec bash
 
+elif [[ $1 == vim ]]; then
+
+echo " installing vim plugins"
+ln -s "$PWD/vim/vimrc" ~/.vimrc
+ln -s "$PWD/vim/.vim" ~/
 
 fi

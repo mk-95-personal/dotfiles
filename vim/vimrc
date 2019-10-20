@@ -1,0 +1,10 @@
+" include all the plugins needed 
+source ~/dotfiles/vim/vim-bundles
+
+" include basics.vim 
+source ~/dotfiles/vim/vimrcs/basic.vim
+
+" include filetypes.vim
+source ~/dotfiles/vim/vimrcs/filetypes.vim
+
+

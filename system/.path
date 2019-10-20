@@ -3,3 +3,6 @@
 # to make python 3 in anaconda the default python
 export PATH="/Users/mkaram/python_venvs/regular_python/bin:$PATH"
 #export PATH="/Users/mkaram/anaconda/bin:$PATH"
+
+# MacPorts Installer addition on 2017-08-30_at_16:59:37: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
