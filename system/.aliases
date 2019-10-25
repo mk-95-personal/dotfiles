@@ -148,3 +148,6 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Open ansys workbench2 on turbulence.chpc.utah.edu
+alias workbench="uufs/chpc.utah.edu/sys/installdir/ansys/17.1/v171/Framework/bin/Linux64/rurunwb2"	
