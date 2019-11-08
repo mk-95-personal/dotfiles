@@ -43,6 +43,9 @@ Plugin 'terryma/vim-multiple-cursors'
 " https://github.com/kien/ctrlp.vim
 Plugin 'kien/ctrlp.vim'
 
+" vim-Latex
+Plugin 'vim-latex/vim-latex'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
