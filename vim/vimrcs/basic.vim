@@ -108,7 +108,11 @@ set foldcolumn=1
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 " enable mouse in nerdtree only
-let NERDTreeMouseMode=2
+" let NERDTreeMouseMode=2
+
+" For mouse click in NERDTree
+:set mouse=a
+let g:NERDTreeMouseMode=3 
 
 augroup MouseInNERDTreeOnly
     autocmd!
